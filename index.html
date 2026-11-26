@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Murmur: your company's AIs, working as a team</title>
+<meta name="description" content="Murmur gives every employee an AI agent. The agents sit in on meetings, talk to each other, split up the work and handle repeated tasks, while people approve anything important." />
+<style>
+  :root { --bg:#0e0e10; --card:#19191b; --line:#2a2a2e; --text:#ededed; --body:#c8c8cc; --muted:#a1a1a6; --blue:#8ab4ff; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--body); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 72px 24px 56px; }
+  h1 { color:var(--text); font-size: clamp(32px, 5vw, 46px); line-height:1.1; letter-spacing:-0.02em; margin:0 0 16px; }
+  h2 { color:var(--text); font-size:20px; letter-spacing:-0.01em; margin:48px 0 12px; }
+  .lead { font-size:19px; color:var(--muted); margin:0 0 32px; }
+  .brand { display:flex; align-items:center; gap:10px; color:var(--text); font-weight:600; margin-bottom:48px; }
+  .logo { width:24px; height:24px; border-radius:7px; background:var(--text); display:flex; align-items:flex-end; justify-content:center; gap:2px; padding:5px 4px; }
+  .logo i { width:3px; border-radius:2px; background:var(--bg); } .logo i:nth-child(1){height:6px} .logo i:nth-child(2){height:12px} .logo i:nth-child(3){height:9px}
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; }
+  .card { background:var(--card); border-radius:16px; box-shadow:0 0 0 1px var(--line); padding:16px 18px; }
+  .card b { color:var(--text); display:block; margin-bottom:4px; font-weight:500; }
+  .card p { margin:0; font-size:14.5px; color:var(--muted); }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  a { color:var(--blue); }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); display:flex; gap:18px; flex-wrap:wrap; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="logo"><i></i><i></i><i></i></span>Murmur</div>
+  <h1>Your company's AIs all work alone. Murmur makes them work as a team.</h1>
+  <p class="lead">Every employee gets an AI agent. The agents sit in on meetings, talk to each other, split up the work and handle repeated tasks, while people approve anything important.</p>
+
+  <div class="grid">
+    <div class="card"><b>An agent for every person</b><p>Each agent knows its person's role, skills, meetings and tasks, and joins their calls as a visible note-taker.</p></div>
+    <div class="card"><b>The agents meet</b><p>Every morning they compare notes and catch work nobody owns, duplicate work and deadlines at risk.</p></div>
+    <div class="card"><b>They do the routine work</b><p>Follow-ups, agendas, reminders and tracker updates, all within the limits each person sets.</p></div>
+    <div class="card"><b>People stay in charge</b><p>Anything sent to a client, or involving money, waits for a person's approval. Every action is logged.</p></div>
+  </div>
+
+  <h2>How Murmur uses Google</h2>
+  <p>If you choose to connect your Google account, your agent can:</p>
+  <ul>
+    <li><b>Google Calendar (read only):</b> see your upcoming meetings, so your agent can join them, prepare agendas and know when you're out of office.</li>
+    <li><b>Gmail (send only):</b> send the follow-ups, agendas and reminders you allow, from your own address. Murmur cannot read your inbox.</li>
+    <li><b>Google Sheets:</b> create and update your team's task tracker.</li>
+  </ul>
+  <p>You can disconnect at any time. Read the full <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    <span>Murmur · TYE Seattle 2026–27</span>
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms</a>
+  </footer>
+</main>
+</body>
+</html>
